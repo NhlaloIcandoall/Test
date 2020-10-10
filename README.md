@@ -1,2 +1,2 @@
 # Test
-Test repositry to learn some cool stuff 
+This is a Test repositry to learn some cool stuff about AWS CLI.
