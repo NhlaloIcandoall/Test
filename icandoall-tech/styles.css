@@ -84,6 +84,9 @@ header {
   position: relative;
   height: 54vw;
   background-color: #0B5AA2;
+  background: url("http://musescore.org/sites/musescore.org/files/blue-translucent.png") repeat top left;
+ 
+
 }
 .hero-content {
   font-family: 'acumin-pro-extra-condensed', sans-serif;
@@ -133,7 +136,7 @@ h3 {
 }
 .intro p {
   font-family: 'acumin-pro-extra-condensed', sans-serif;
-  font-size: 2.5em;
+  font-size: 2.0em;
   line-height: 1.8;
   position: relative;
   z-index: 200;
