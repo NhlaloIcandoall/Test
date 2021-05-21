@@ -83,8 +83,8 @@ header {
 .hero {
   position: relative;
   height: 54vw;
-  background-color: #0B5AA2;
-  
+  background-color: none;
+  opacity: none;
  
 
 }
@@ -177,9 +177,9 @@ h3 {
   font-size: 3em;
   font-weight: 100;
   padding: 2em 0 0 0;
-  letter-spacing: .36em;
+  letter-spacing: .3em;
   text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 1.;
   max-width: 9em;
   margin-bottom: .5em;
 }
