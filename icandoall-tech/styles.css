@@ -35,10 +35,10 @@ header {
   position: relative;
   display: block;
   float: left;
-  width: 3.1em;
+  width: 15.1em;
 }
 .site-logo img {
-  width: 3.1em;
+  width: auto;
 }
 .logo {
   opacity: 1;
@@ -71,7 +71,7 @@ header {
   text-decoration: none;
   letter-spacing: .15em;
   text-transform: uppercase;
-  color: #fff;
+  color: #0E3DE0;
   -webkit-transition: color .3s;
   transition: color .3s;
 }
@@ -83,14 +83,14 @@ header {
 .hero {
   position: relative;
   height: 54vw;
-  background-color: none;
+  background-color: lightblue;
   opacity: none;
  
 
 }
 .hero-content {
   font-family: 'acumin-pro-extra-condensed', sans-serif;
-  color: #E98500;
+  color: #0E3DE0;
   position: absolute;
   z-index: 20000;
   padding-top: 4em;
@@ -113,7 +113,7 @@ h1 {
   margin-bottom: 1.5%;
   text-transform: uppercase;
   text-shadow: 0px 0px 10px rgba(0, 0, 0,.05);
-  letter-spacing: .75em;
+  letter-spacing: .40em;
   margin-left: .5em;
   font-size: 7.5vw;
 }
@@ -144,35 +144,35 @@ h3 {
   letter-spacing: .325em;
   text-transform: uppercase;
 }
-.artworks {
+.connected-office {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
-.artwork {
+.collaborate {
   display: flex;
 }
-.artwork .artwork-piece {
+.collaborate .collaboration-piece {
   padding: 8% 0 8% 23.5%;
   background-image:-moz-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
   background-image: -webkit-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
   background-image: -ms-linear-gradient( 135deg, rgb(160,55,220) 0%, rgb(83,200,234) 100%);
   width: 50%;
 }
-.artwork-piece figure {
+.collaboration-piece figure {
   position: relative;
 }
-.artwork-piece figure img {
+.collaboration-piece figure img {
   position: relative;
   z-index: 100;
 }
-.artwork .artwork-description {
+.collaborate .cloud-exodus-description {
   background: #26223e;
   color: #fff;
   width: 50%;
   padding: 11.25em 13em 11.5em;
 }
-.artwork-title {
+.exodus-title{
   font-family: 'acumin-pro-extra-condensed', sans-serif;
   font-size: 3em;
   font-weight: 100;
@@ -183,7 +183,7 @@ h3 {
   max-width: 9em;
   margin-bottom: .5em;
 }
-.artwork-text {
+.exodus-text {
   font-size: 1.1em;
   line-height: 1.9;
   opacity: .8;
@@ -274,4 +274,150 @@ footer {
 }
 .footer-credit a:hover {
   text-decoration: none;
+}
+@media (min-width:768px){
+	body {
+    font-size: 100%;
+  }
+
+  header {
+    position: fixed;
+    padding: 1.35em;
+  }
+
+
+  .site-logo {
+    float: left;
+    width: 3.1em;
+  }
+  .site-logo img {
+    width: 3.1em;
+  }
+
+  .site-nav-open {
+    display: none;
+  }
+
+  .site-nav-close {
+    display: none;
+  }
+
+  .site-nav {
+    position: relative;
+    display: block !important;
+    float: right;
+    width: 80%;
+    padding: .75em 1em 0 0;
+    background: none;
+  }
+
+  .site-nav ul {
+    margin: 0;
+    text-align: right;
+  }
+  .site-nav ul li {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 1.5em;
+  }
+  .site-nav ul li a {
+    font-size: .85em;
+    padding-bottom: .5em
+  }
+  .site-nav ul li a:hover,
+  .site-nav ul li a:focus {
+    outline: none;
+    border-bottom: 1px solid white;
+  }
+
+ 
+
+.hero {
+  height: 119vw;
+}
+.hero-leadin {
+  font-size: 2em;
+  line-height: 2.2;
+  margin-bottom: 2.25%;
+  padding-top: 24.2%;
+  letter-spacing: .39em;
+}
+.hero-title {
+	font-size: 12.4vw;
+	margin-bottom: 4.85%;
+	letter-spacing: .225em;
+	margin-left: .25em;
+}
+.hero-date {
+  line-height: 2.75;
+  letter-spacing: .35em;
+}
+.hero-arrow {
+  bottom: 4.25%;
+  width: .5em;
+  margin-left: -.25em;
+}
+
+.intro {
+  padding: 9em 6em 9.5em;
+}
+.intro p {
+  font-size: 2.25em;
+  line-height: 2;
+  letter-spacing: .32em;
+}
+.intro-text {
+  width: 37em;
+  margin: 0 auto;
+}
+#stamp {
+  bottom: 60px;
+  right: 3em;
+  width: 7em;
+}
+.artwork-piece figure figcaption {
+  width: 58%;
+  padding: 1.5em 1.65em;
+}
+.artwork-description {
+  padding: 5.85em 11em 6.975em;
+}
+.artwork-title {
+  font-size: 2.4em;
+  margin-bottom: .6em;
+  letter-spacing: .35em;
+}
+.artwork-3 .artwork-piece {
+  padding: 3.5% 26%;
+}
+.artwork-3 .artwork-description {
+  background: #26223e;
+}
+footer {
+  margin-top: -2.5em;
+  padding-top: 10em;
+}
+.footer-info {
+  clear: both;
+  padding-top: 5em;
+}
+.footer-info p {
+  max-width: 24em;
+}
+.footer-disclaimer {
+  width: 60%;
+}
+
+.footer-credit {
+  float: right;
+  width: 40%;
+  text-align: right;
+}
+}
+
+
+@media (min-width:992px){
+	.hero {
+    height: 53.5vw;
+  }
 }
